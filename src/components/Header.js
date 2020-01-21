@@ -5,10 +5,11 @@ console.log("hola");
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <nav>
+      
+        <header>
+              <nav>
     <div class="nav-wrapper">
-      {/* <a href="#" class="brand-logo">Logo</a> */}
+      
       <ul id="nav-mobile" class="right ">
         <li><a href="sass.html">About</a></li>
         <li><a href="badges.html">Productos</a></li>
@@ -16,8 +17,12 @@ class Header extends React.Component {
       </ul>
     </div>
   </nav>
+  
+  
 
-</div>
+
+</header>
+
       
     );
   }

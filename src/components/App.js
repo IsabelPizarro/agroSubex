@@ -3,6 +3,7 @@ import "../index.css";
  import Header from "./Header";
  import Footer from "./Footer";
  import MainContent from "./MainContent";
+ import Form from "./Form";
 
 
 class App extends React.Component {
@@ -15,9 +16,10 @@ class App extends React.Component {
     // const imagenPokemos = pokemos.url;
     return (
       <div className="App">
-        <div>
+        <div >
           <Header  />
           <MainContent/>
+          <Form/>
           <Footer/>
         </div>
       </div>
