@@ -9,10 +9,15 @@ class Header extends React.Component {
         <header>
               <nav>
     <div class="nav-wrapper">
+    
       
       <ul id="nav-mobile" class="right ">
-        <li><a href="sass.html">About</a></li>
+        <li><a href="sass.html">Agrosubex</a></li>
         <li><a href="badges.html">Productos</a></li>
+        <li><a href="collapsible.html">Gestión de residuos</a></li>
+        
+        <li><a href="collapsible.html">Logística</a></li>
+        
         <li><a href="collapsible.html">Contacto</a></li>
       </ul>
     </div>
