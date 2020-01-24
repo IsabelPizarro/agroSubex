@@ -4,17 +4,19 @@ import "../index.css";
  import Footer from "./Footer";
  import MainContent from "./MainContent";
  import Form from "./Form";
+ import Products from "./Products";
+ import Logistic from "./Logistic";
+ import SocialResponsability from "./SocialResponsability";
  import {  Route, Switch } from 'react-router-dom';
 
 
 class App extends React.Component {
   // constructor() {
   //   super();
-  //   this.state = pokemons;
   // }
 
   render() {
-    // const imagenPokemos = pokemos.url;
+   
     return (
       <div className="App">
         <div >
@@ -22,9 +24,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={MainContent} />
             <Route exact path="/Form" component={Form} />
+            <Route exact path="/Logistic" component={Logistic} />
+            <Route exact path="/Products" component={Products} />
+            <Route exact path="/Responsability" component={SocialResponsability} />
           </Switch>
-          <MainContent/>
-          <Form/>
+          {/* <MainContent/> */}
+          
           <Footer/>
         </div>
       </div>

@@ -14,7 +14,6 @@ class Footer extends React.Component {
           <div class="footer-copyright">
             <div class="container">
             © 2019 Copyright
-            <a class="grey-text text-lighten-4 right" href="#!">Agrosubex</a>
             </div>
           </div>
         </footer>

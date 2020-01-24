@@ -23,7 +23,7 @@ class Form extends React.Component {
             <textarea placeholder="Escribe tu mensaje aquí...." tabindex="5" required></textarea>
           </fieldset>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
           </fieldset>
           <p class="copyright">¡Gracias por ponerte en contacto con nosotros!</p>
         </form>

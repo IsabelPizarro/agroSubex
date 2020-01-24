@@ -15,10 +15,18 @@ class Header extends React.Component {
       
       <ul id="nav-mobile" class="right ">
         <li><a href="sass.html">Agrosubex</a></li>
-        <li><a href="badges.html">Productos</a></li>
-        <li><a href="collapsible.html">Gestión de residuos</a></li>
+        <li><Link to="/Products">
+          Productos
+          </Link></li>
+        <li>
+          <Link to="/Responsability"> Gestión de residuos
+          </Link></li>
         
-        <li><a href="collapsible.html">Logística</a></li>
+        <li>
+          <Link to="/Logistic">
+          Logística
+          </Link>
+          </li>
       
         
                 
