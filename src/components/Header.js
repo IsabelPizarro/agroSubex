@@ -11,18 +11,20 @@ class Header extends React.Component {
         <header>
               <nav>
     <div class="nav-wrapper">
-      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3>
-      <div className="containerLogo">
-      <img src="../../favicon.png" alt="logo" className="logo"></img>
-      </div>
+     
+      <a href="#" class="brand-logo">
+      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="../../favicon.png" alt="logo" className="logo"/></div></a> 
     
       
       <ul id="nav-mobile" class="right ">
         
-        <li><a href="sass.html">Home</a></li>
-        <li><Link to="/Products">
-          Productos
-          </Link></li>
+        <li>
+          <a href="sass.html">Home</a>
+          </li>
+        <li>
+          <Link to="/Products">
+          Productos </Link>
+          </li>
         
         <li>
           <Link to="/Logistic">
@@ -31,22 +33,19 @@ class Header extends React.Component {
           </li>
           <li>
         <Link to="/Responsability"> Proveedores
-          </Link></li>
-          <li>
+          </Link>
+          </li>
+          
         
       <li>
           <Link to="/Responsability"> Gestión de residuos
-          </Link></li>
+          </Link>
+          </li>
+          <li>
           <Link to="/Logistic">
           Agrosubex
           </Link>
-          </li>
-        
-       
-      
-        
-                
-              
+          </li>     
         
         <li><Link to="/Form">
           Contacto
