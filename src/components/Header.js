@@ -9,17 +9,17 @@ class Header extends React.Component {
     return (
       
         <header>
-              <nav>
-    <div class="nav-wrapper">
+              <nav className="nav  ">
+    <div class="nav-wrapper ">
      
       <a href="#" class="brand-logo">
-      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="../../favicon.png" alt="logo" className="logo"/></div></a> 
+      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="../../favicon.png" alt="logo" className="logo" /></div></a> 
     
       
-      <ul id="nav-mobile" class="right ">
+      <ul id="nav-mobile" class="right hide-on-med-and-down ">
         
         <li>
-          <a href="sass.html">Home</a>
+          Home
           </li>
         <li>
           <Link to="/Products">
