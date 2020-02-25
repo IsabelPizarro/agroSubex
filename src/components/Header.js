@@ -5,18 +5,25 @@ import { Link} from 'react-router-dom';
 console.log("hola");
 
 class Header extends React.Component {
+  
+
+  
+ 
   render() {
     return (
+      
+      
       
         <header>
           {/* aqui acaba la prueba */}
               <nav className="nav  ">
+    
     <div class="nav-wrapper ">
      
       <a href="#" class="brand-logo">
-      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="../../favicon.png" alt="logo" className="logo" /></div></a> 
-    
-      
+     
+      <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="./favicon.png" alt="logo" className="logo" /></div></a> 
+       
       <ul id="nav-mobile" class="right hide-on-med-and-down ">
         
         <li>
@@ -26,7 +33,6 @@ class Header extends React.Component {
           <Link to="/Products">
           Productos </Link>
           </li>
-        
         <li>
           <Link to="/Logistic">
           Logística
@@ -35,9 +41,7 @@ class Header extends React.Component {
           <li>
         <Link to="/Responsability"> Proveedores
           </Link>
-          </li>
-          
-        
+          </li>  
       <li>
           <Link to="/Responsability"> Gestión de residuos
           </Link>
@@ -51,11 +55,17 @@ class Header extends React.Component {
         <li><Link to="/Form">
           Contacto
           </Link></li>
-        
-      
       </ul>
     </div>
   </nav>
+
+  {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  </nav> */}
   
   
 
