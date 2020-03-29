@@ -6,22 +6,19 @@ console.log("hola");
 class MainContent extends React.Component {
   render() {
     return (
-      <div className="HomeContainer">
+  <div className="HomeContainer">
       <div className="mainContainer">
-        {/* <Products/> */}
        
 
+          </div>
+    <div className="CommonContainer">
+      <div className="banner">
+        <h1 className="bannerTitle"> LOREM IPSUM BLABLA</h1>
+        </div>
+          <div>
+            <h1>Nuestros productos</h1>
 </div>
-<div className="CommonContainer">
-  <div className="banner">
-    <h1 className="bannerTitle"> LOREM IPSUM BLABLA</h1>
-  </div>
-  <div>
-    <h1>Nuestros productos
-    </h1>
-    </div>
-
-</div>
+      </div>
 </div>
       
     );

@@ -44,13 +44,11 @@ nav .brand-logo {
   display: flex;
   margin: 0.6%;
 }
-.card {
+/* .card {
   background-image: url('../src/vacas.jpg');
 
-}
+} */
 .card.small {
-  /* height: 250; */
-  /* width: 33%; */
   margin: 30px;
 }
 ul {
