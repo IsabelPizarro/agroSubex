@@ -11,11 +11,50 @@ import "../index.css";
 
 
 class App extends React.Component {
-  // constructor() {
-  //   super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      scroll:false
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+}
+
+componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+}
+handleScroll(event) {
+  if (window.scrollY === 0 && this.state.scrolling === true) {
+      this.setState({scroll: false});
+      console.log(this.state.scroll);
+      document.getElementById("myNav").className = "";
+  }
+  else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+      this.setState({scroll: true});
+      console.log(this.state.scroll);
+      document.getElementById("myNav").className = "navScroll";
+  }
+}
+  // handleScroll(){
+  //   debugger
+  //   console.log("hola");
+
+  //   window.onscroll = function() {myFunction()};
+
+  //   function myFunction() {
+  //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  //       document.getElementById("myNav").className = "navScroll";
+  //     } else {
+  //       document.getElementById("myNav").className = "";
+  //     }
+  //   }
   // }
 
   render() {
+    console.log(this.state.scroll);
    
     return (
       <div className="App">

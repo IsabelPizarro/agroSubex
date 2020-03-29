@@ -11,12 +11,8 @@ class Header extends React.Component {
  
   render() {
     return (
-      
-      
-      
         <header>
-          {/* aqui acaba la prueba */}
-              <nav className="nav  ">
+              <nav className="nav" id="myNav">
     
     <div class="nav-wrapper ">
      

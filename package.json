@@ -1,5 +1,5 @@
 {
-  "name": "agroSubex",
+  "name": "agrosubex",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -15,7 +15,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run deploy",
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
