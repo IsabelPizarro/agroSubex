@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "171076ad2323d6ac1088",
-    "url": "./static/css/main.27d0cbe2.chunk.css"
+    "revision": "487266151d4642fb0f99",
+    "url": "./static/css/main.92aede1b.chunk.css"
   },
   {
-    "revision": "171076ad2323d6ac1088",
-    "url": "./static/js/main.171076ad.chunk.js"
+    "revision": "487266151d4642fb0f99",
+    "url": "./static/js/main.48726615.chunk.js"
   },
   {
     "revision": "1d9509fd8ed77d5cbdae",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "./static/media/vacas.9ffda176.jpg"
   },
   {
-    "revision": "da2492fd4ab33ed8a437f1042d22be63",
+    "revision": "d7ac13aec1ea7bf190d1fa83ac2207f7",
     "url": "./index.html"
   }
 ];
