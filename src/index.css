@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0;
-
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -68,13 +67,11 @@ ul {
   
 }
 .CommonContainer{
-  /* margin-top: 20px; */
   padding-top: 160px;
   padding: 100px;
   width: 100%;
-  /* height: 100vh; */
-  /* height: 3; */
-  border: solid black 3px;
+  height: 92vh;
+  /* border: solid black 3px; */
 
 }
 .banner {
@@ -140,6 +137,7 @@ nav {
 
 
 .page-footer{
+  height: 8vh;
   width: 100%;
   padding: 0px;
   background-color: #073805;

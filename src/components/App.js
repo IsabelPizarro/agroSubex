@@ -58,7 +58,6 @@ handleScroll(event) {
    
     return (
       <div className="App">
-        <div >
           <Header  />
           <Switch>
             <Route exact path="/" component={MainContent} />
@@ -70,8 +69,7 @@ handleScroll(event) {
           {/* <MainContent/> */}
           
           <Footer/>
-        </div>
-      </div>
+    </div>
     );
   }
 }
