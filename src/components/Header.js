@@ -38,10 +38,10 @@ const Header = (props) => {
               </li> */}
               <li>
               <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-                <DropdownToggle caret>
+                <DropdownToggle  className="dropDown">
                   Ingeniería
                   </DropdownToggle>
-                <DropdownMenu>
+                <DropdownMenu className="dropDown">
                 <DropdownItem header className="dropDown">
                       <Link to="/design">
                       DISEÑO CONCEPTUAL - PROYECTO TECNICO
@@ -53,7 +53,7 @@ const Header = (props) => {
                    DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
                     </Link>
                     </DropdownItem>
-                  <DropdownItem header>
+                  <DropdownItem header className="dropDown">
                   <Link to="/vessels">TIPOS DE NAVES
                   </Link>
                   </DropdownItem>

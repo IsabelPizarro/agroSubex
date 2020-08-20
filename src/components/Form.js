@@ -27,7 +27,7 @@ class Form extends React.Component {
           </fieldset>
           <p class="copyright">¡Gracias por ponerte en contacto con nosotros!</p>
         </form>
-        <div className="bannerForm">numero</div>
+        {/* <div className="bannerForm">numero</div> */}
       </div>
       
     );
