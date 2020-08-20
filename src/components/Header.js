@@ -53,7 +53,10 @@ const Header = (props) => {
                    DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
                     </Link>
                     </DropdownItem>
-                  <DropdownItem header>TIPOS DE NAVES</DropdownItem>
+                  <DropdownItem header>
+                  <Link to="/vessels">TIPOS DE NAVES
+                  </Link>
+                  </DropdownItem>
                   <DropdownItem header className="dropDown">
                   <Link to="/buildings">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES

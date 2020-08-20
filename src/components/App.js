@@ -10,36 +10,38 @@ import "../index.css";
  import {  Route, Switch } from 'react-router-dom';
 import Buildings from "./Buildings/Buildings";
 import Design from "./Buildings/Design";
+import Vessels from "./Buildings/Vessels";
 
 
 class App extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       scroll:false
-//     };
-//     this.handleScroll = this.handleScroll.bind(this);
-//   }
+  constructor(props) {
+    super(props);
+    this.state = {
+      scroll:false
+    };
+    this.handleScroll = this.handleScroll.bind(this);
+  }
 
-//   componentDidMount() {
-//     window.addEventListener('scroll', this.handleScroll);
-// }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+}
 
 // componentWillUnmount() {
 //     window.removeEventListener('scroll', this.handleScroll);
 // }
-// handleScroll(event) {
-//   if (window.scrollY === 0 && this.state.scrolling === true) {
-//       this.setState({scroll: false});
-//       console.log(this.state.scroll);
-//       document.getElementById("myNav").className = "";
-//   }
-//   else if (window.scrollY !== 0 && this.state.scrolling !== true) {
-//       this.setState({scroll: true});
-//       console.log(this.state.scroll);
-//       document.getElementById("myNav").className = "navScroll";
-//   }
-// }
+handleScroll(event) {
+  if (window.scrollY === 0) {
+    console.log("se mueva pa bajo")
+      this.setState({scroll: false});
+      console.log(this.state.scroll);
+      document.getElementById("myNav").className = "nav";
+  }
+  else if (window.scrollY !== 0) {
+      this.setState({scroll: true});
+      console.log(this.state.scroll);
+      document.getElementById("myNav").className = "navScroll";
+  }
+}
 
 
   render() {
@@ -56,6 +58,8 @@ class App extends React.Component {
             <Route exact path="/Responsability" component={SocialResponsability} />
             <Route exact path="/buildings" component={Buildings} />
             <Route exact path="/design" component={Design} />
+            <Route exact path="/vessels" component={Vessels} />
+         
           </Switch>
           {/* <MainContent/> */}
           
