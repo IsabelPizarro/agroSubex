@@ -8,6 +8,8 @@ import "../index.css";
  import Logistic from "./Logistic";
  import SocialResponsability from "./SocialResponsability";
  import {  Route, Switch } from 'react-router-dom';
+import Buildings from "./Buildings/Buildings";
+import Design from "./Buildings/Design";
 
 
 class App extends React.Component {
@@ -52,6 +54,8 @@ class App extends React.Component {
             <Route exact path="/Logistic" component={Logistic} />
             <Route exact path="/Products" component={Products} />
             <Route exact path="/Responsability" component={SocialResponsability} />
+            <Route exact path="/buildings" component={Buildings} />
+            <Route exact path="/design" component={Design} />
           </Switch>
           {/* <MainContent/> */}
           

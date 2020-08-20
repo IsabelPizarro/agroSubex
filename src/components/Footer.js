@@ -12,7 +12,7 @@ class Footer extends React.Component {
           
         
           <div class="footer-copyright">
-            <div class="container">
+            <div class="">
             © 2019 Copyright
             </div>
           </div>
