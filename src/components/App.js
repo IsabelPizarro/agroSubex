@@ -43,7 +43,6 @@ handleScroll(event) {
 
 
   render() {
-    // console.log(this.state.scroll);
    
     return (
       <div className="App">

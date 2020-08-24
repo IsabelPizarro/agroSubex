@@ -110,7 +110,6 @@ main {
   width: 100%;
 }
 nav {
-  
   background-color: #073805;
   position: fixed;
   border-radius: 10px;
@@ -327,4 +326,7 @@ fieldset {
 }
 .input {
   padding: 0px 10px !important
+}
+.navbar-nav {
+  background-color: #073805;
 }

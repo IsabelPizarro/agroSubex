@@ -1,23 +1,35 @@
 import React from "react";
 import { Link} from 'react-router-dom';
 import  { useState } from 'react';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Dropdown } from 'reactstrap';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText
+} from 'reactstrap';
+import Menu from "../images/menu-abierto.svg"
 
 const Header = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggle = () => setDropdownOpen(prevState => !prevState);
 
-  
+  const [isOpen, setIsOpen] = useState(false);
 
-  
-
-  
- 
+  const tog = () => setIsOpen(!isOpen);
   
     return (
     <header>
-      <nav className="nav" id="myNav">
+      <Navbar className="nav" id="myNav">
         <div class="nav-wrapper ">
           <a href="#" class="brand-logo">
           <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="./favicon.png" alt="logo" className="logo" /></div></a> 
@@ -31,11 +43,6 @@ const Header = (props) => {
                 <Link to="/Products">
                 Productos </Link>
               </li>
-              
-              {/* <li>
-                <Link to="/buildings">
-                Ingeniería </Link>
-              </li> */}
               <li>
               <Dropdown isOpen={dropdownOpen} toggle={toggle}>
                 <DropdownToggle  className="dropDown">
@@ -62,8 +69,6 @@ const Header = (props) => {
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>
                     </DropdownItem>
-                 
-                 
                 </DropdownMenu>
               </Dropdown>
               </li>
@@ -90,8 +95,20 @@ const Header = (props) => {
               Contacto
               </Link></li>
           </ul>
+          <NavbarToggler onClick={tog} className="right hide-on-med-and-up"> <img src={Menu} style={{width:25}} className="pt-3 mx-3"/></NavbarToggler>
         </div>
-      </nav>
+        <Collapse isOpen={isOpen} navbar>
+         
+          <Nav className="mr-auto px-5" id="" navbar>
+            <NavItem>
+              <NavLink href="/components/">Components</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink >Ingemieria</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
     </header>
 
       
