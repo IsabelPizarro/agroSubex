@@ -26,9 +26,7 @@ class App extends React.Component {
     window.addEventListener('scroll', this.handleScroll);
 }
 
-// componentWillUnmount() {
-//     window.removeEventListener('scroll', this.handleScroll);
-// }
+
 handleScroll(event) {
   if (window.scrollY === 0) {
     console.log("se mueva pa bajo")
