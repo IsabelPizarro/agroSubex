@@ -300,6 +300,9 @@ fieldset {
 .dropDown{ 
   background-color: #073805;
   color: white;
+  border: none !important;
+  text-transform: none;
+  box-shadow: none;
 }
 .title {
   color: black;
@@ -335,16 +338,25 @@ fieldset {
 .navbar-collapse {
   background-color: #073805 !important;
 }
-@media only screen and (min-width: 901px){
- .hide-on-med-and-up {
+@media  (min-width: 1000px){
+ .navbar-toggler {
     display: none !important;
-}}
+}
+.hide-on-med-and-up {
+  display: none !important;
 
-@media only screen and (min-width: 0){
-html {
-    font-size: 14px;
 }
-.containerLogo{
-  display: none;
+
 }
+
+
+
+
+@media only screen and (max-width: 390px) {
+  body {
+    background-color: lightblue;
+  }
+  .containerLogo{
+    display: none !important;
+  }
 }
