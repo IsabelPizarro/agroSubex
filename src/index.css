@@ -328,7 +328,23 @@ fieldset {
   padding: 0px 10px !important
 }
 .navbar {
-  background-color: #073805;
+  background-color: #073805 !important;
   position: null !important;
   padding: 0px !important;
+}
+.navbar-collapse {
+  background-color: #073805 !important;
+}
+@media only screen and (min-width: 901px){
+ .hide-on-med-and-up {
+    display: none !important;
+}}
+
+@media only screen and (min-width: 0){
+html {
+    font-size: 14px;
+}
+.containerLogo{
+  display: none;
+}
 }

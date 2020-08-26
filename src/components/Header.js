@@ -95,7 +95,7 @@ const Header = (props) => {
               Contacto
               </Link></li>
           </ul>
-          <NavbarToggler onClick={tog} className="right hide-on-med-and-up"> <img src={Menu} style={{width:25}} className="pt-3 mx-3"/></NavbarToggler>
+          <NavbarToggler onClick={tog} className="right"> <img src={Menu} style={{width:25}} className="pt-3 mx-3"/></NavbarToggler>
         </div>
         <Collapse isOpen={isOpen} navbar>
          
