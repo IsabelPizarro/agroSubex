@@ -327,6 +327,8 @@ fieldset {
 .input {
   padding: 0px 10px !important
 }
-.navbar-nav {
+.navbar {
   background-color: #073805;
+  position: null !important;
+  padding: 0px !important;
 }

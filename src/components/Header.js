@@ -29,7 +29,7 @@ const Header = (props) => {
   
     return (
     <header>
-      <Navbar className="nav" id="myNav">
+      <nav className="nav" id="myNav">
         <div class="nav-wrapper ">
           <a href="#" class="brand-logo">
           <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="./favicon.png" alt="logo" className="logo" /></div></a> 
@@ -108,7 +108,7 @@ const Header = (props) => {
             </NavItem>
           </Nav>
         </Collapse>
-      </Navbar>
+      </nav>
     </header>
 
       
