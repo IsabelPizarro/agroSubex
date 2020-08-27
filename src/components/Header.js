@@ -106,7 +106,7 @@ const Header = (props) => {
                 Productos </Link>
               </NavItem>
               <NavItem>
-              <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+              <Dropdown isOpen={dropdownOpen} toggle={toggle} onClick={tog}>
                 <DropdownToggle  className="dropDown">
                   Ingeniería
                   </DropdownToggle>

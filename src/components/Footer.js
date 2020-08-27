@@ -9,8 +9,6 @@ class Footer extends React.Component {
     return (
     
       <footer class="page-footer mt-5">
-          
-        
           <div class="footer-copyright">
             <div class="m-auto">
             © 2019 Copyright
