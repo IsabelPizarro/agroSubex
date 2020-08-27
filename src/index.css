@@ -372,6 +372,10 @@ fieldset {
 
 }
 
+.sobreponer {
+  z-index: 5 !important;
+}
+
 
 @media only screen and (max-width: 400px) {
   body {

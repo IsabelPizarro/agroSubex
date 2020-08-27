@@ -21,11 +21,24 @@ import Menu from "../images/menu-abierto.svg"
 const Header = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggle = () => setDropdownOpen(prevState => !prevState);
+  const toggle = () => {
+
+   
+    setDropdownOpen(prevState => !prevState)
+    ;}
+    const closeAll = () => {
+      console.log("close all")
+      console.log(dropdownOpen);
+      console.log(isOpen);
+   
+     
+      ;}
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const tog = () => setIsOpen(!isOpen);
+  const tog = () =>{ 
+    //true esta cerrado
+    setIsOpen(!isOpen);}
   
     return (
     <header>
@@ -57,7 +70,7 @@ const Header = (props) => {
 
                   <DropdownItem header className="dropDown">
                   <Link to="/buildings">
-                   DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
+                    DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
                     </Link>
                     </DropdownItem>
                   <DropdownItem header className="dropDown">
@@ -93,74 +106,74 @@ const Header = (props) => {
           </ul>
           <NavbarToggler onClick={tog} className="right "> <img src={Menu} style={{width:25}} className="pt-3 mx-3"/></NavbarToggler>
         </div>
-        <Collapse isOpen={isOpen} navbar>
+
+
+        <Collapse isOpen={isOpen}  navbar>
          
-          <Nav className="mr-auto px-5" id="" navbar onClick={tog}>
-              <NavItem>
+          <Nav className="mr-auto px-5 sobreponer" id="" navbar >
+              <NavItem onClick={tog}>
                 <a href="#"> 
                   Home
                   </a>
               </NavItem>
-              <NavItem>
+              <NavItem onClick={tog}>
                 <Link to="/Products">
                 Productos </Link>
               </NavItem>
+
               <NavItem>
-              <Dropdown isOpen={dropdownOpen} toggle={toggle} onClick={tog}>
-                <DropdownToggle  className="dropDown">
+              <Dropdown isOpen={dropdownOpen} toggle={toggle} >
+                <DropdownToggle  className="dropDown" >
                   Ingeniería
-                  </DropdownToggle>
-                <DropdownMenu className="dropDown">
-                <DropdownItem header className="dropDown">
+                  </DropdownToggle >
+                <DropdownMenu className="dropDown"  >
+                <DropdownItem header className="dropDown"  isOpen={dropdownOpen} toggle={toggle} >
                       <Link to="/design">
                       DISEÑO CONCEPTUAL - PROYECTO TECNICO
                       </Link>
                   </DropdownItem>
 
-                  <DropdownItem header className="dropDown">
-                  <Link to="/buildings">
-                   DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
-                    </Link>
+                  <DropdownItem header className="dropDown" onClick={tog}>
+                      <Link to="/buildings">
+                        DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
+                        </Link>
                     </DropdownItem>
-                  <DropdownItem header className="dropDown">
+                  <DropdownItem header className="dropDown" onClick={tog}>
                   <Link to="/vessels">TIPOS DE NAVES
                   </Link>
                   </DropdownItem>
-                  <DropdownItem header className="dropDown">
+                  <DropdownItem header className="dropDown" onClick={tog}>
                   <Link to="/buildings">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>
                     </DropdownItem>
                 </DropdownMenu>
+
               </Dropdown>
+
               </NavItem>
-              <NavItem>
+              <NavItem onClick={tog}>
                 <Link to="/Logistic">
                 Logística
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem onClick={tog}>
                 <Link to="/Responsability"> Proveedores
                 </Link>
               </NavItem>  
-              <NavItem>
+              <NavItem onClick={tog}>
                 <Link to="/Responsability"> Gestión de residuos
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem onClick={tog}>
               <Link to="/agrosubex">
               Agrosubex
               </Link>
               </NavItem>     
-            <NavItem><Link to="/Form">
+            <NavItem onClick={tog}>
+              <Link to="/Form">
               Contacto
               </Link></NavItem>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink >Ingenieria</NavLink>
-            </NavItem>
           </Nav>
         </Collapse>
       </nav>

@@ -1,5 +1,8 @@
 import React from "react";
-import foto from "../../images/green.jpg"
+import foto from "../../images/tipoA/a.jpg"
+import fotoA from "../../images/tipoA/aa.jpg"
+import fotoR from "../../images/tipoR/rrrr.jpg"
+import fotoC from "../../images/tipoc/cc.jpg"
 import Banner from "../shared/Banner"
 
 console.log("hola");
@@ -8,7 +11,7 @@ class Vessels extends React.Component {
   render() {
     return (
     <div className="container builts m-5 p-5">
-        <div className="build p-5 border">
+        <div className="build p-5 ">
             <div>
             <div>
                 <h2 className="title py-5 ">TIPOS DE NAVES INDUSTRIALES Y AGRICOLAS</h2>
@@ -18,12 +21,14 @@ class Vessels extends React.Component {
             <div className="container">
                 {/* primera NAVE */}
             <div>
-                <h3 className="navTitle border">Nave tipo -C</h3>
+                <h3 className="navTitle">Nave tipo -C</h3>
             </div>
-  <div className="row">
-    <div className="col-sm align-items-center justify-content-center ">
-      <Banner/>
-    </div>
+                <div className="row">
+                <div className="col-sm align-items-center justify-content-center ">
+                <div className="boder mt-5">
+                        <img src={foto} alt="cow" className="img-fluid"></img>
+                </div>
+            </div>
             <div className="col-sm">
                 <div className="pContainer py-5 px-3  font-weight-normal">
            
@@ -50,14 +55,14 @@ class Vessels extends React.Component {
 
         {/* SEGUNDA NAVE */}
         <div>
-                <h3 className="navTitle border">Nave tipo -A</h3>
+                <h3 className="navTitle">Nave tipo -A</h3>
             </div>
             <div className="row">
-    <div className="col-sm align-items-center justify-content-center ">
-        <div className="boder mt-5">
-      <img src={foto} alt="cow" className="img-fluid"></img>
-      </div>
-    </div>
+            <div className="col-sm align-items-center justify-content-center ">
+                <div className="boder mt-5">
+                        <img src={fotoC} alt="cow" className="img-fluid"></img>
+                </div>
+            </div>
 
             <div className="col-sm">
                 <div className="pContainer py-5 px-3  font-weight-normal">
@@ -78,14 +83,14 @@ class Vessels extends React.Component {
 
         {/* TERCERA Nave */}
         <div>
-                <h3 className="navTitle border">Nave tipo -R</h3>
+                <h3 className="navTitle">Nave tipo -R</h3>
             </div>
-            <div className="row">
-    <div className="col-sm align-items-center justify-content-center ">
-        <div className="boder mt-5">
-      <img src={foto} alt="cow" className="img-fluid"></img>
-      </div>
-    </div>
+    <div className="row">
+            <div className="col-sm align-items-center justify-content-center ">
+                <div className="boder mt-5">
+                    <img src={fotoR} alt="cow" className="img-fluid"></img>
+                </div>
+            </div>
             <div className="col-sm">
                 <div className="pContainer py-5 px-3  font-weight-normal">
                         <p className="text-justify"> La NAVE TIPO- R está destinada al uso como espacios de trabajo, y/o procesos Industriales. Sus características son:</p>
@@ -107,12 +112,12 @@ class Vessels extends React.Component {
 
         {/* CUARTA NAVE */}
         <div>
-                <h3 className="navTitle border">Nave tipo -H</h3>
+                <h3 className="navTitle ">Nave tipo -H</h3>
             </div>
             <div className="row">
     <div className="col-sm align-items-center justify-content-center ">
         <div className="boder mt-5">
-      <img src={foto} alt="cow" className="img-fluid"></img>
+      <img src={fotoA} alt="cow" className="img-fluid"></img>
       </div>
     </div>
             <div className="col-sm">
