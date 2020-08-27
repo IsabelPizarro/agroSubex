@@ -140,13 +140,19 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%; 
+  z-index: 5 !important;
+  position: fixed;
 }
 
 
 .page-footer{
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
   min-height: 8vh;
   width: 100%;
   padding: 0px;
+  margin-top: 10px !important;
   background-color: #073805;
 }
 
@@ -346,6 +352,10 @@ fieldset {
   background-color: #073805 !important;
   position: null !important;
   padding: 0px !important;
+  z-index: 1;
+}
+.img {
+  z-index: 2 !important;
 }
 .navbar-collapse {
   background-color: #073805 !important;
@@ -362,25 +372,30 @@ fieldset {
 }
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+  }
+  .esconder {
+    display: none !important;
+
   }
   .containerLogo{
     display: none !important;
   }
   .banner {
+    box-sizing: border-box;
+    padding: 1px;
+    /* display: none; */
  
-    height: 30%;
+    height: 200px;
     width: 100%;
     
+  /* margin: 0px; */
   
   }
   .bannerTitle {
-    color:white;
-    font: weight 1;
-    /* line-height:1px !important; */
-    /* text-align: center; */
+    display: none !important;
   }
 }
 

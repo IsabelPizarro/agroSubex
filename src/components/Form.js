@@ -5,7 +5,7 @@ console.log("hola");
 class Form extends React.Component {
   render() {
     return (
-        <div class="container">  
+        <div class="container mb-5">  
         <form id="contact" action="" method="post">
           <h3>Agrosubex</h3>
           <h4>Ponte en contacto con nosotros a través de este formulario</h4>
@@ -27,13 +27,13 @@ class Form extends React.Component {
           </fieldset>
           <p class="copyright">¡Gracias por ponerte en contacto con nosotros!</p>
         </form>
-        <div className="adress mb-5 mt-0">
+        <div className="adress mb-5 mt-0" >
           <div className="pl-5 ml-5">
             Horario;<br/>
              9:00 -14:00<br/>
              17:00 -20:00<br/>
           </div>
-          <div className="pl-5 ml-5">
+          <div className="pl-5 ml-5 mb-5 pb-3">
           Telf. 691769065<br/>
           agrosubex@gmail.com<br/>
           Direcion:<br/>

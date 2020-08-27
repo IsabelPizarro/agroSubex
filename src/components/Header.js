@@ -95,7 +95,7 @@ const Header = (props) => {
         </div>
         <Collapse isOpen={isOpen} navbar>
          
-          <Nav className="mr-auto px-5" id="" navbar>
+          <Nav className="mr-auto px-5" id="" navbar onClick={tog}>
               <NavItem>
                 <a href="#"> 
                   Home
