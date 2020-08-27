@@ -26,16 +26,13 @@ const Header = (props) => {
    
     setDropdownOpen(prevState => !prevState)
     ;}
-    const closeAll = () => {
-      console.log("close all")
-      console.log(dropdownOpen);
-      console.log(isOpen);
-   
-     
-      ;}
 
-  const [isOpen, setIsOpen] = useState(false);
-
+const [isOpen, setIsOpen] = useState(false);
+const six = (event) => {
+  debugger;
+  console.log(event.target)
+  console.log("clicado");
+}
   const tog = () =>{ 
     //true esta cerrado
     setIsOpen(!isOpen);}
@@ -45,7 +42,7 @@ const Header = (props) => {
       <nav className="nav" id="myNav">
         <div class="nav-wrapper ">
           <a href="#" class="brand-logo">
-          <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo"><img src="./favicon.png" alt="logo" className="logo" /></div></a> 
+          <h3 className="navTitle">agro<span className="navSubTitle">subex</span></h3> <div className="containerLogo hide-on-small-only"><img src="./favicon.png" alt="logo" className="logo" /></div></a> 
           <ul id="nav-mobile" class="right hide-on-med-and-down "> 
               <li>
                 <a href="#"> 
@@ -77,7 +74,7 @@ const Header = (props) => {
                   <Link to="/vessels">TIPOS DE NAVES
                   </Link>
                   </DropdownItem>
-                  <DropdownItem header className="dropDown">
+                  <DropdownItem header className="dropDown" >
                   <Link to="/buildings">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>
@@ -142,7 +139,7 @@ const Header = (props) => {
                   <Link to="/vessels">TIPOS DE NAVES
                   </Link>
                   </DropdownItem>
-                  <DropdownItem header className="dropDown" onClick={tog}>
+                  <DropdownItem header className="dropDown" onClick={console.log("click")}>
                   <Link to="/buildings">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>

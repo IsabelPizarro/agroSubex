@@ -17,6 +17,10 @@ header {
   /* margin-right: 0.5%; */
   
 }
+
+.nav {
+  z-index: 5 !important;
+}
 .navSubTitle{
   font-size: 35px;
   color: white;
@@ -387,6 +391,9 @@ fieldset {
   }
   .containerLogo{
     display: none !important;
+  }
+  .brand-logo {
+    padding-right: 40px !important;
   }
   .banner {
     box-sizing: border-box;

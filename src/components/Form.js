@@ -36,7 +36,7 @@ class Form extends React.Component {
           <div className="pl-5 ml-5 mb-5 pb-3">
           Telf. 691769065<br/>
           agrosubex@gmail.com<br/>
-          Direcion:<br/>
+          Direccion:<br/>
           C/Luis Alvarez Lencero <br/>
           06011<br/>
           Oficina Nº 21<br/>

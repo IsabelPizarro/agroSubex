@@ -7,13 +7,13 @@ class Design extends React.Component {
   render() {
     return (
     <div className="container builts m-5 p-5">
-        <div className="build p-5 border">
+        <div className="build p-5 ">
             <div>
             <div>
                 <h2 className="title py-5 ">DISEÑO CONCEPTUAL - PROYECTO TECNICO</h2>
             </div>
             <div>
-                <h3 className="navTitle border">Realizamos proyectos y asesoramiento para la definición del proyecto y realización de presupuestos.</h3>
+                <h3 className="navTitle ">Realizamos proyectos y asesoramiento para la definición del proyecto y realización de presupuestos.</h3>
             </div>
             </div>
 

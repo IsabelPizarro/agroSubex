@@ -3,9 +3,7 @@ import foto from "../../images/tipoA/a.jpg"
 import fotoA from "../../images/tipoA/aa.jpg"
 import fotoR from "../../images/tipoR/rrrr.jpg"
 import fotoC from "../../images/tipoc/cc.jpg"
-import Banner from "../shared/Banner"
 
-console.log("hola");
 
 class Vessels extends React.Component {
   render() {

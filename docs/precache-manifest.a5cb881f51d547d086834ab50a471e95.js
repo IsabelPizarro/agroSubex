@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "86e5c9057ccac1ec048b",
-    "url": "./static/css/main.cc7d99fc.chunk.css"
+    "revision": "fedb7dc210d086f08b13",
+    "url": "./static/css/main.0a0ccff2.chunk.css"
   },
   {
-    "revision": "86e5c9057ccac1ec048b",
-    "url": "./static/js/main.86e5c905.chunk.js"
+    "revision": "fedb7dc210d086f08b13",
+    "url": "./static/js/main.fedb7dc2.chunk.js"
   },
   {
-    "revision": "672d12adc9c197b42ed1",
-    "url": "./static/js/1.672d12ad.chunk.js"
+    "revision": "659cc5c74e60aaf34253",
+    "url": "./static/js/1.659cc5c7.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
@@ -18,10 +18,6 @@ self.__precacheManifest = [
   {
     "revision": "75ac26fe543890899daa50e1ba3dce80",
     "url": "./static/media/green.75ac26fe.jpg"
-  },
-  {
-    "revision": "8ee138b5f1a28a9988c1b558b2d9be5a",
-    "url": "./static/media/a.8ee138b5.jpg"
   },
   {
     "revision": "9ffda176914e003ecead81ec50a5b73a",
@@ -56,6 +52,10 @@ self.__precacheManifest = [
     "url": "./static/media/pulpaDeRemolachaPrensada.6fd078d9.JPG"
   },
   {
+    "revision": "8ee138b5f1a28a9988c1b558b2d9be5a",
+    "url": "./static/media/a.8ee138b5.jpg"
+  },
+  {
     "revision": "21d376b37844e6a3d33287836139275e",
     "url": "./static/media/aa.21d376b3.jpg"
   },
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "./static/media/cc.5cb63abe.jpg"
   },
   {
-    "revision": "3d1842c0e25730e34aa55796e475501a",
+    "revision": "d703cd0993d9a4fb785821bf5450266b",
     "url": "./index.html"
   }
 ];

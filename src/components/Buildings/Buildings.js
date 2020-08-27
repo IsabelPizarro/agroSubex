@@ -7,13 +7,13 @@ class Buildings extends React.Component {
   render() {
     return (
       <div className="container builts m-5 p-5">
-      <div className="build p-5 border">
+      <div className="build p-5">
           <div>
           <div>
               <h2 className="title py-5 ">DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES</h2>
           </div>
           <div>
-              <h3 className="navTitle border">Seguimiento y dirección para la ejecución del proyecto, hasta la finalización de la obra..</h3>
+              <h3 className="navTitle">Seguimiento y dirección para la ejecución del proyecto, hasta la finalización de la obra..</h3>
           </div>
           </div>
 

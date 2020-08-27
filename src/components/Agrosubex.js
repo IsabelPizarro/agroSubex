@@ -3,7 +3,7 @@ import React from "react";
 class Agrosubex extends React.Component {
   render() {
     return (
-          <div className="container mt-5 pt-5" >
+          <div className="container-fluid mt-5 pt-5 pb-5" >
             <h1 className="mt-5 pt-5">Historia</h1>
             <p>
             Tras un siglo de servicios para el campo, produciendo, acarreando y sirviendo subproductos siempre al servicio el ganadero. Proseguimos cuatro generaciones, pasando desde servir con bestias y carros de palo hasta hoy día, con los equipos de transporte más modernos, siempre inmersos en el proceso de la producción agroganadera, actualizándonos día a día.

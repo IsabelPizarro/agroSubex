@@ -11,8 +11,8 @@ import pulpaDeRemolachaPrensada from "../images/productos/pulpaDeRemolachaPrensa
 class Products extends React.Component {
   render() {
     return (
-          <div  className="container-fluid pt-5 mt-5 mb-5">
-            <h1 mt-5>Nuestros productos.</h1>
+          <div  className="container-fluid pt-5 mt-5 mb-5 pb-5">
+            <h1 className="mt-5 pl-5 ml-5">Nuestros productos.</h1>
             <div className="d-flex justify-content-center flex-wrap">
             
               
@@ -45,7 +45,7 @@ class Products extends React.Component {
                   <span class="card-title activator grey-text text-darken-4">Patatas de destríos<i class="material-icons right">+</i></span>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">¿Qué es?<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4">¿Qué es?<i class="material-icons right">x</i></span>
                   <p>El destrío de patata está formado por patatas enteras y partidas provenientes de la industria patatera, no válida para el consumo humano por razones de calibre o desperfectos. El destrío de patatas es de los subproductos con más aporte en almidón, ya que tiene (entre un 60-80%) convirtiéndolo así en un alimento muy energético. Presenta también contenidos en proteína y fibra, siendo una buena fuente potasio. Subproducto muy apetecible para todo tipo de ganado.</p>
                 </div>
               </div>
