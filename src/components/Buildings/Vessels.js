@@ -10,8 +10,8 @@ console.log("hola");
 class Vessels extends React.Component {
   render() {
     return (
-    <div className="container builts m-5 p-5">
-        <div className="build p-5 ">
+    <div className="container-fluid builts m-5 p-5">
+        <div className="build p-1 ">
             <div>
             <div>
                 <h2 className="title py-5 ">TIPOS DE NAVES INDUSTRIALES Y AGRICOLAS</h2>
