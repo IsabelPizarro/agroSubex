@@ -78,15 +78,11 @@ const Header = (props) => {
                 </Link>
               </li>
               <li>
-                <Link to="/Responsability"> Proveedores
-                </Link>
-              </li>  
-              <li>
                 <Link to="/Responsability"> Gestión de residuos
                 </Link>
               </li>
               <li>
-              <Link to="/Logistic">
+              <Link to="/Agrosubex">
               Agrosubex
               </Link>
               </li>     
@@ -100,11 +96,70 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
          
           <Nav className="mr-auto px-5" id="" navbar>
+              <NavItem>
+                <a href="#"> 
+                  Home
+                  </a>
+              </NavItem>
+              <NavItem>
+                <Link to="/Products">
+                Productos </Link>
+              </NavItem>
+              <NavItem>
+              <Dropdown isOpen={dropdownOpen} toggle={toggle}>
+                <DropdownToggle  className="dropDown">
+                  Ingeniería
+                  </DropdownToggle>
+                <DropdownMenu className="dropDown">
+                <DropdownItem header className="dropDown">
+                      <Link to="/design">
+                      DISEÑO CONCEPTUAL - PROYECTO TECNICO
+                      </Link>
+                  </DropdownItem>
+
+                  <DropdownItem header className="dropDown">
+                  <Link to="/buildings">
+                   DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
+                    </Link>
+                    </DropdownItem>
+                  <DropdownItem header className="dropDown">
+                  <Link to="/vessels">TIPOS DE NAVES
+                  </Link>
+                  </DropdownItem>
+                  <DropdownItem header className="dropDown">
+                  <Link to="/buildings">
+                  SERVICIOS TÉCNICOS - TRÁMITES LEGALES
+                    </Link>
+                    </DropdownItem>
+                </DropdownMenu>
+              </Dropdown>
+              </NavItem>
+              <NavItem>
+                <Link to="/Logistic">
+                Logística
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/Responsability"> Proveedores
+                </Link>
+              </NavItem>  
+              <NavItem>
+                <Link to="/Responsability"> Gestión de residuos
+                </Link>
+              </NavItem>
+              <NavItem>
+              <Link to="/agrosubex">
+              Agrosubex
+              </Link>
+              </NavItem>     
+            <NavItem><Link to="/Form">
+              Contacto
+              </Link></NavItem>
             <NavItem>
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink >Ingemieria</NavLink>
+              <NavLink >Ingenieria</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

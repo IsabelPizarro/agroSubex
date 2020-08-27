@@ -5,6 +5,7 @@ import "../index.css";
  import MainContent from "./MainContent";
  import Form from "./Form";
  import Products from "./Products";
+ import Agrosubex from "./Agrosubex";
  import Logistic from "./Logistic";
  import SocialResponsability from "./SocialResponsability";
  import {  Route, Switch } from 'react-router-dom';
@@ -56,7 +57,7 @@ handleScroll(event) {
             <Route exact path="/buildings" component={Buildings} />
             <Route exact path="/design" component={Design} />
             <Route exact path="/vessels" component={Vessels} />
-         
+            <Route exact path="/agrosubex" component={Agrosubex} />         
           </Switch>
           {/* <MainContent/> */}
           

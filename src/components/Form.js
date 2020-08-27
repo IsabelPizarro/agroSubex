@@ -27,7 +27,23 @@ class Form extends React.Component {
           </fieldset>
           <p class="copyright">¡Gracias por ponerte en contacto con nosotros!</p>
         </form>
-        {/* <div className="bannerForm">numero</div> */}
+        <div className="adress mb-5 mt-0">
+          <div className="pl-5 ml-5">
+            Horario;<br/>
+             9:00 -14:00<br/>
+             17:00 -20:00<br/>
+          </div>
+          <div className="pl-5 ml-5">
+          Telf. 691769065<br/>
+          agrosubex@gmail.com<br/>
+          Direcion:<br/>
+          C/Luis Alvarez Lencero <br/>
+          06011<br/>
+          Oficina Nº 21<br/>
+          Edificio Eurodom<br/>
+          Badajoz<br/>
+          </div>
+        </div>
       </div>
       
     );

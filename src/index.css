@@ -50,11 +50,11 @@ nav .brand-logo {
 } */
 .card.small {
   margin: 30px;
+    height: 300px;
+    width: 300px !important;
 }
-ul {
-  display: flex;
-  flex-direction: row;
-}
+
+
 .mainContainer {
   background-color: black;
   background-image: url('../src/vacas.jpg');
@@ -69,18 +69,30 @@ ul {
   padding: 100px;
   width: 100%;
   height: 92vh;
+  width: 100vw;
   /* border: solid black 3px; */
 
 }
 .banner {
-  background-color: #d67829;
-  height: 230px;
+  background-color: #686664;
+  opacity: 0.9;
+  border: solid 3px #d67829;
+  color:#d67829;
+  height: 270px;
   width: 100%;
   padding: 30px;
+  border-radius: 20px;
+
 }
 .bannerTitle {
   color:white;
   font-weight: 300 bold;
+  text-align: center;
+}
+.buscando {
+  color: white;
+  font-weight: 400;
+  text-decoration-line: underline;
 }
 h1 {
   color: #43A047;
@@ -350,8 +362,6 @@ fieldset {
 }
 
 
-
-
 @media only screen and (max-width: 390px) {
   body {
     background-color: lightblue;
@@ -359,4 +369,31 @@ fieldset {
   .containerLogo{
     display: none !important;
   }
+  .banner {
+ 
+    height: 30%;
+    width: 100%;
+    
+  
+  }
+  .bannerTitle {
+    color:white;
+    font: weight 1;
+    /* line-height:1px !important; */
+    /* text-align: center; */
+  }
+}
+
+.adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  /* justify-content: end; */
+  /* align-content: space-between; */
+  text-align: right;
+}
+
+.card {
+  min-width: 250px;
 }

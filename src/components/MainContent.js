@@ -12,13 +12,19 @@ class MainContent extends React.Component {
           </div>
     <div className="CommonContainer">
       <div className="banner">
-      awdjdpjpj
-       <ban/>
-        <h1 className="bannerTitle"> LOREM IPSUM BLABLA</h1>
+      <h2  className="bannerTitle ml-5 pt-0 mt-0 mb-1">En constante investigación</h2>
+      <div className="d-flex justify-content-around">
+      <div className="buscando pt-3">
+        Buscando nuevas alternativas <br/> para el mundo rural
+      </div>
+      <div className="buscando pl-1">
+        <p>- Productos rentables</p>
+        <p>- Nutrólogos a su servicio</p>
+        <p>- Reciclando subproductos</p>
+      </div>
+      </div>
+
         </div>
-          <div>
-            <h1>Nuestros productos</h1>
-</div>
       </div>
 </div>
       
