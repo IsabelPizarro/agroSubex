@@ -1,7 +1,7 @@
 {
-  "main.css": "./static/css/main.ce8ce8aa.chunk.css",
-  "main.js": "./static/js/main.10959a1e.chunk.js",
-  "main.js.map": "./static/js/main.10959a1e.chunk.js.map",
+  "main.css": "./static/css/main.b560a8a8.chunk.css",
+  "main.js": "./static/js/main.8cd8d8b5.chunk.js",
+  "main.js.map": "./static/js/main.8cd8d8b5.chunk.js.map",
   "static/js/1.03614acd.chunk.js": "./static/js/1.03614acd.chunk.js",
   "static/js/1.03614acd.chunk.js.map": "./static/js/1.03614acd.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
@@ -16,8 +16,8 @@
   "static/media/detrioDePatata.jpg": "./static/media/detrioDePatata.df5f1ce3.jpg",
   "static/media/pulpaDeRemolachaPrensada.JPG": "./static/media/pulpaDeRemolachaPrensada.6fd078d9.JPG",
   "static/media/a.jpg": "./static/media/a.8ee138b5.jpg",
-  "static/css/main.ce8ce8aa.chunk.css.map": "./static/css/main.ce8ce8aa.chunk.css.map",
+  "static/css/main.b560a8a8.chunk.css.map": "./static/css/main.b560a8a8.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.ef5852592492b0700d91fb300dd4d7c6.js": "./precache-manifest.ef5852592492b0700d91fb300dd4d7c6.js",
+  "precache-manifest.2cd41f1d982080c7d9d7e8e06df3eb7b.js": "./precache-manifest.2cd41f1d982080c7d9d7e8e06df3eb7b.js",
   "service-worker.js": "./service-worker.js"
 }
