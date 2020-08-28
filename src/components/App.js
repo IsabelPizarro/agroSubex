@@ -12,6 +12,7 @@ import "../index.css";
 import Buildings from "./Buildings/Buildings";
 import Design from "./Buildings/Design";
 import Vessels from "./Buildings/Vessels";
+import Legal from "./Buildings/Legal";
 
 
 class App extends React.Component {
@@ -57,6 +58,7 @@ handleScroll(event) {
             <Route exact path="/buildings" component={Buildings} />
             <Route exact path="/design" component={Design} />
             <Route exact path="/vessels" component={Vessels} />
+            <Route exact path="/legal" component={Legal} />
             <Route exact path="/agrosubex" component={Agrosubex} />         
           </Switch>
           {/* <MainContent/> */}

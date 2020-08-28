@@ -64,7 +64,6 @@ const six = (event) => {
                       DISEÑO CONCEPTUAL - PROYECTO TECNICO
                       </Link>
                   </DropdownItem>
-
                   <DropdownItem header className="dropDown">
                   <Link to="/buildings">
                     DIRECCIÓN DE OBRAS  -  COORDINACION DE INSDUSTRIALES
@@ -75,7 +74,7 @@ const six = (event) => {
                   </Link>
                   </DropdownItem>
                   <DropdownItem header className="dropDown" >
-                  <Link to="/buildings">
+                  <Link to="/legal">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>
                     </DropdownItem>
@@ -140,7 +139,7 @@ const six = (event) => {
                   </Link>
                   </DropdownItem>
                   <DropdownItem header className="dropDown" onClick={console.log("click")}>
-                  <Link to="/buildings">
+                  <Link to="/legal">
                   SERVICIOS TÉCNICOS - TRÁMITES LEGALES
                     </Link>
                     </DropdownItem>

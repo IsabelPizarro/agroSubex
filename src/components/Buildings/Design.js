@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../../images/green.jpg"
+import foto from "../../images/DISEÑO CONCEPTUAL – PROYECTO TECNICO.webp"
 
 console.log("hola");
 
