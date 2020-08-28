@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "fedb7dc210d086f08b13",
-    "url": "./static/css/main.0a0ccff2.chunk.css"
+    "revision": "3849bf7e973634b0ee4f",
+    "url": "./static/css/main.936da458.chunk.css"
   },
   {
-    "revision": "fedb7dc210d086f08b13",
-    "url": "./static/js/main.fedb7dc2.chunk.js"
+    "revision": "3849bf7e973634b0ee4f",
+    "url": "./static/js/main.3849bf7e.chunk.js"
   },
   {
-    "revision": "659cc5c74e60aaf34253",
-    "url": "./static/js/1.659cc5c7.chunk.js"
+    "revision": "c71e756f6651bd999e68",
+    "url": "./static/js/1.c71e756f.chunk.js"
   },
   {
     "revision": "4a686d48d5a089750c49",
     "url": "./static/js/runtime~main.4a686d48.js"
   },
   {
-    "revision": "75ac26fe543890899daa50e1ba3dce80",
-    "url": "./static/media/green.75ac26fe.jpg"
+    "revision": "3beec8a3ad97bd3c5605e1f196cd6d7c",
+    "url": "./static/media/DISEÑO CONCEPTUAL – PROYECTO TECNICO.3beec8a3.webp"
   },
   {
     "revision": "9ffda176914e003ecead81ec50a5b73a",
@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "./static/media/pulpaDeRemolachaPrensada.6fd078d9.JPG"
   },
   {
+    "revision": "768e6ffd68983417779e064fedaefc5e",
+    "url": "./static/media/Dirección de obras.768e6ffd.jpg"
+  },
+  {
     "revision": "8ee138b5f1a28a9988c1b558b2d9be5a",
     "url": "./static/media/a.8ee138b5.jpg"
   },
@@ -68,7 +72,7 @@ self.__precacheManifest = [
     "url": "./static/media/cc.5cb63abe.jpg"
   },
   {
-    "revision": "d703cd0993d9a4fb785821bf5450266b",
+    "revision": "af651b379f59f27d7c7427a7da7f76f6",
     "url": "./index.html"
   }
 ];
